@@ -1,0 +1,12 @@
+Header header
+string[] joint_names
+float32[] jointPosition
+float32[] jointStiffness
+float32[] jointDamping
+float32[] jointTorque
+geometry_msgs/Pose cartPose
+geometry_msgs/Wrench cartStiffness
+geometry_msgs/Wrench cartDamping
+geometry_msgs/Wrench cartForce
+float32[] cartNull
+int32 controlMode
